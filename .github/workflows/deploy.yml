@@ -1,6 +1,5 @@
 name: "Project 2: NetDevOps Secure Validation Pipeline"
 
-# Trigger the pipeline automatically on every code push or Pull Request to the main branch
 on:
   push:
     branches: [ "main" ]
@@ -10,33 +9,28 @@ on:
 jobs:
   secure_validation:
     name: "Static Code Analysis & Linting"
-    runs-on: ubuntu-latest # Launches a fresh, free Linux runner in the GitHub cloud
+    runs-on: ubuntu-latest
 
     steps:
-      # Step 1: Download your code repository onto the cloud runner machine
       - name: Checkout Source Code
         uses: actions/checkout@v3
 
-      # Step 2: Set up the Terraform CLI execution environment on the runner
       - name: Setup Terraform Engine
         uses: hashicorp/setup-terraform@v2
         with:
           terraform_version: 1.5.5
 
-      # Step 3: Check if your code format follows clean global spacing guidelines
       - name: Gate 1: Code Format Check
         run: terraform fmt -check -recursive
-        continue-on-error: true # Warning only, doesn't crash the pipeline if formatting is slightly off
+        continue-on-error: true
 
-      # Step 4: Run an open-source static security linter to catch network security flaws
       - name: Gate 2: Static Security Scan (tfsec)
         uses: aquasecurity/tfsec-action@v1.0.0
         with:
-          additional_args: --soft-fail # Warns you about security flaws without breaking your sandbox environment
+          additional_args: --soft-fail
 
-      # Step 5: Run a dry-run structural compilation check on your network files
-      - name: Gate 3: Structural Validation Check
-        run: |
-          cd 01_Enterprise_Secure_Landing_Zone
-          terraform init -backend=false
-          terraform validate
+      - name: Gate 3: Initialize Terraform Environment
+        run: terraform -chdir=01_Enterprise_Secure_Landing_Zone init -backend=false
+
+      - name: Gate 4: Execute Structural Validation
+        run: terraform -chdir=01_Enterprise_Secure_Landing_Zone validate
