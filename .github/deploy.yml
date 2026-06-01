@@ -1,4 +1,4 @@
-Set-Content -Path .github/workflows/deploy.yml -Value 'name: "Project 2: NetDevOps Secure Validation Pipeline"
+name: "Project 2: NetDevOps Secure Validation Pipeline"
 
 on:
   push:
@@ -24,13 +24,13 @@ jobs:
         run: terraform fmt -check -recursive
         continue-on-error: true
 
-      - name: Gate 2: Static Security Scan (tfsec)
+      - name: Gate 2: Static Security Scan
         uses: aquasecurity/tfsec-action@v1.0.0
         with:
           additional_args: --soft-fail
 
-      - name: Gate 3: Structural Validation Check
-        run: |
-          cd 01_Enterprise_Secure_Landing_Zone
-          terraform init -backend=false
-          terraform validate'
+      - name: Gate 3: Initialize Terraform Environment
+        run: terraform -chdir=01_Enterprise_Secure_Landing_Zone init -backend=false
+
+      - name: Gate 4: Execute Structural Validation
+        run: terraform -chdir=01_Enterprise_Secure_Landing_Zone validate
