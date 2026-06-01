@@ -32,3 +32,8 @@ jobs:
 
       - name: Gate 4 Execute Structural Validation
         run: terraform -chdir=01_Enterprise_Secure_Landing_Zone validate
+      - name: Gate 5: Initialize Project 3 Palo Alto Environment
+        run: terraform -chdir=03_PaloAlto_NVA_Cloud_Perimeter init -backend=false
+
+      - name: Gate 6: Validate Project 3 Architecture Blueprint
+        run: terraform -chdir=03_PaloAlto_NVA_Cloud_Perimeter validate
