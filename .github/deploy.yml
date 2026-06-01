@@ -1,4 +1,4 @@
-name: "Project 2: NetDevOps Secure Validation Pipeline"
+Set-Content -Path .github/workflows/deploy.yml -Value 'name: "Project 2: NetDevOps Secure Validation Pipeline"
 
 on:
   push:
@@ -33,4 +33,4 @@ jobs:
         run: |
           cd 01_Enterprise_Secure_Landing_Zone
           terraform init -backend=false
-          terraform validate
+          terraform validate'
