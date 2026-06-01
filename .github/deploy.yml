@@ -1,0 +1,36 @@
+name: "Project 2: NetDevOps Secure Validation Pipeline"
+
+on:
+  push:
+    branches: [ "main" ]
+  pull_request:
+    branches: [ "main" ]
+
+jobs:
+  secure_validation:
+    name: "Static Code Analysis"
+    runs-on: ubuntu-latest
+
+    steps:
+      - name: Checkout Source Code
+        uses: actions/checkout@v3
+
+      - name: Setup Terraform Engine
+        uses: hashicorp/setup-terraform@v2
+        with:
+          terraform_version: 1.5.5
+
+      - name: Gate 1: Code Format Check
+        run: terraform fmt -check -recursive
+        continue-on-error: true
+
+      - name: Gate 2: Static Security Scan (tfsec)
+        uses: aquasecurity/tfsec-action@v1.0.0
+        with:
+          additional_args: --soft-fail
+
+      - name: Gate 3: Structural Validation Check
+        run: |
+          cd 01_Enterprise_Secure_Landing_Zone
+          terraform init -backend=false
+          terraform validate
