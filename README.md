@@ -32,3 +32,7 @@ Click directly into any project folder above to view its dedicated documentation
 ### 📌 Project 2: NetDevOps Automated Validation Pipeline
 *   **Location**: `📁 02_Automated_SecOps_Pipelines`
 *   **Focus**: Continuous Integration (CI) workflows via GitHub Actions cloud runners, canonical layout conformance testing (`terraform fmt`), and dry-run infrastructure validations (`terraform validate`).
+
+### 📌 Project 3: Palo Alto VM-Series NVA Transit Integration
+*   **Location**: `📁 03_PaloAlto_NVA_Cloud_Perimeter`
+*   **Focus**: Network Virtual Appliance (NVA) core structures, multi-interface routing isolation (Management, Trust, Untrust segments), overriding Azure transit blocks (`enable_ip_forwarding = true`), and commercial vendor Marketplace billing plan authorizations (`plan`).
