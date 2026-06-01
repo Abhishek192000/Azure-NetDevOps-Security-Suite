@@ -15,7 +15,7 @@ Azure-NetDevOps-Security-Suite (Master Hub Repository)
  ├── 📁 02_Automated_SecOps_Pipelines      ──► [Project 2: Automated SecOps CI/CD Pipeline]
  │                                              └── Syntax conformance & dry-run validation gates.
  │
- └── 📁 03_PaloAlto_NVA_Cloud_Perimeter    ──► [Project 3: Coming Soon]
+ └── 📁 03_PaloAlto_NVA_Cloud_Perimeter    ──► [Project 3: Palo Alto VM-Series NVA Integration]
                                                 └── Virtual Firewall appliance transit integrations.
 ```
 
