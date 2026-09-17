@@ -1,3 +1,9 @@
+[![Project 4 Blog](https://shields.io)](https://dev.to)
+[![Project 5 Blog](https://shields.io)](https://dev.to)
+
+***
+
+
 # 🏢 Azure NetDevOps & Cloud Security Architecture Suite
 
 Welcome to my enterprise cloud security and automation portfolio. This repository serves as a centralized production-grade framework demonstrating the convergence of Layer-3 networking topologies, security perimeter controls, and automated DevSecOps validation pipelines within Microsoft Azure.
