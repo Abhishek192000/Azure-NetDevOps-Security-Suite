@@ -1,5 +1,5 @@
-[![Project 4 Blog](https://shields.io)](https://dev.to)
-[![Project 5 Blog](https://shields.io)](https://dev.to)
+[![Project 4 Blog] https://dev.to/abhishek_kadlii_9ef4ca8bc/the-underground-tunnel-how-i-locked-down-enterprise-storage-without-breaking-the-app-2lcg
+[![Project 5 Blog] https://dev.to/abhishek_kadlii_9ef4ca8bc/-the-self-healing-server-fleet-how-i-mastered-automation-beat-global-sku-crushes-and-solved-5d8
 
 ***
 
