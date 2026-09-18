@@ -1,5 +1,11 @@
 # 🚀 Project 5: Metric-Driven High-Availability Server Fleet (VMSS)
 
+## 📖 Live Implementation Compute Chronicles
+
+To track the elastic scaling thresholds, workload stress simulation results, and solutions for global Azure SKU restrictions behind this self-healing compute farm, review my live technical journal:
+*   [Technical Journal: Metric-Driven Scaling and Managing Global SKU Crushes in VMSS Clusters]https://dev.to/abhishek_kadlii_9ef4ca8bc/-the-self-healing-server-fleet-how-i-mastered-automation-beat-global-sku-crushes-and-solved-5d8
+
+
 ## 🗺️ Lab Objective
 Configure a self-healing, horizontally autoscaling web server farm using an Azure Virtual Machine Scale Set (VMSS) running under Uniform Orchestration Mode. The infrastructure utilizes metric monitoring sensor profiles to automatically detect sudden resource utilization breaches and dynamically deploy identical compute instances behind a Layer 4 Load Balancer without human intervention.
 
