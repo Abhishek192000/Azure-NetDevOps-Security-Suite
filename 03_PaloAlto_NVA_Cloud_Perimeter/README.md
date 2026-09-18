@@ -1,5 +1,12 @@
 # 🛡️ Project 3: Palo Alto VM-Series NVA Transit Integration
 
+## 📖 Live Implementation Security Chronicles
+
+To track the deep-dive routing logic configurations, Bicep structural design engines, and active transit intercept phases behind this virtual appliance security perimeter, review my live technical journals:
+*   [Day 8: The Live Traffic Intercept — Bringing the Cloud Fortress to Life]https://dev.to/abhishek_kadlii_9ef4ca8bc/the-live-traffic-intercept-bringing-the-cloud-fortress-to-life-day-8-323l
+*   [Day 9 & 10: Shifting to IaC — Writing the 183-Line Central NVA Firewall Engine in Bicep]https://dev.to/abhishek_kadlii_9ef4ca8bc/shifting-to-iac-writing-the-183-line-central-firewall-engine-in-bicep-when-the-portal-hits-a-wall-1n5l
+
+
 An enterprise-grade, fully automated infrastructure deployment orchestrating a **Palo Alto VM-Series Next-Generation Firewall (NGFW)** virtual appliance into a centralized transit network hub. This architecture demonstrates the migration of basic native cloud security controls into an immutable, high-throughput **Network Virtual Appliance (NVA)** perimeter matrix.
 
 ---
