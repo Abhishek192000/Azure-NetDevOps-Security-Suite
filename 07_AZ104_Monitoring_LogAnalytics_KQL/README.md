@@ -1,5 +1,11 @@
 # 📊 Project 7: Enterprise Observability & Log Analytics Diagnostics
 
+## 📖 Live Technical Narrative & Architecture Journal
+
+To review the end-to-end design choices, step-by-step technical implementation breakdown, and structural control plane metrics behind this observability lab, check out my live technical chronicle:
+*   [Technical Journal: Real-Time Observability — Centralized Ingestion & Log Diagnostics with KQL](https://dev.to/abhishek_kadlii_9ef4ca8bc/finding-the-needle-in-the-cloud-haystack-real-time-observability-log-diagnostics-with-kql-328j)
+
+
 ## 🗺️ Lab Objective
 Design, provision, and deploy a centralized enterprise log collection and system metrics perimeter. This project sets up an isolated data plane architecture using an Azure Log Analytics Workspace, wires live Linux compute assets via the Azure Monitor Linux Agent (AMA) extension, and leverages custom Kusto Query Language (KQL) parsing scripts to dynamically identify critical hardware strains and audit security authentication compromises.
 
