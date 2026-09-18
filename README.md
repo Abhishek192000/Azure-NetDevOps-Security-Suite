@@ -36,8 +36,11 @@ Azure-NetDevOps-Security-Suite (Master Hub Repository)
  ├── 📁 04_AZ104_PaaS_Storage_Isolation   ──► [Project 4: Enterprise PaaS Storage Isolation]
  │                                              └── Data-plane edge lock down & Private Link tunnels.
  │
- └── 📁 05_AZ104_HighAvailability_VMSS     ──► [Project 5: Metric-Driven Self-Healing VMSS Fleet]
-                                                └── Automatic horizontal scale nodes behind LB layer.
+ ├── 📁 05_AZ104_HighAvailability_VMSS     ──► [Project 5: Metric-Driven Self-Healing VMSS Fleet]
+ │                                              └── Automatic horizontal scale nodes behind LB layer.
+ │
+ └── 📁 06_AZ104_Governance_Security_Guardrails ──► [Project 6: Governance & Security Guardrails]
+                                                    └── Automated Azure Policy rules & Custom RBAC roles.
 ```
 
 ---
@@ -65,3 +68,7 @@ Click directly into any project folder above to view its dedicated documentation
 ### 📌 Project 5: Metric-Driven High-Availability Server Fleet (VMSS)
 *   **Location**: `📁 05_AZ104_HighAvailability_VMSS`
 *   **Focus**: Horizontal compute scaling via Uniform Orchestration fleets, Layer 4 Azure Load Balancer backend distributions, metric aggregate monitoring policies, and programmatic `stress` testing configurations.
+
+### 📌 Project 6: Enterprise Governance, Custom RBAC, & Azure Policy Guardrails
+*   **Location**: `📁 06_AZ104_Governance_Security_Guardrails`
+*   **Focus**: Automated API control plane restrictions, whitelisting cost-effective B-series VM families, custom JSON policy criteria declarations, and designing least-privilege identity access management (IAM) role blocks.
