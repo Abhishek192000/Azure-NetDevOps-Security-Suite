@@ -1,5 +1,11 @@
 # 🛡️ Project 6: Governance & Security Guardrails
 
+## 📖 Live Technical Narrative & Architecture Journal
+
+To review the end-to-end design choices, step-by-step technical implementation breakdown, and structural control plane validations behind this governance lab, check out my live technical chronicle:
+*   [Technical Journal: Governance Guardrails — Preventing Rogue Deployments & Enforcing Custom RBAC]https://dev.to/abhishek_kadlii_9ef4ca8bc/stopping-rogue-deployments-how-i-programmed-azure-api-guardrails-to-protect-the-cloud-wallet-340m
+
+
 ## 🗺️ Lab Objective
 Establish automated control plane guardrails within an enterprise subscription framework. This project engineers a custom Azure Policy definition applied at the resource group scope to automatically deny non-authorized virtual machine sizes, alongside a custom least-privilege RBAC role to restrict operator identities exclusively to virtual machine reboot activities.
 
