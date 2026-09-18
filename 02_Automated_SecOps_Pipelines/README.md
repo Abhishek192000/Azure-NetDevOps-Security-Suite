@@ -1,5 +1,11 @@
 # 🤖 Project 2: NetDevOps Automated SecOps Validation Pipeline
 
+## 📖 Live Implementation Pipeline Chronicles
+
+To track the strategic engineering choices, GitHub Actions execution workflows, and layout validation gates (`terraform fmt` / `terraform validate`) built behind this continuous integration infrastructure pipeline, review my live technical journal:
+*   [Day 4 & 5: Weekend Grind — Breaking the GUI Habit & Building a Scalable Cloud Fortress in Azure]https://dev.to/abhishek_kadlii_9ef4ca8bc/weekend-grind-breaking-the-gui-habit-and-building-a-scalable-cloud-fortress-in-azure-day-4-5-241o
+
+
 An enterprise-grade, cloud-native Continuous Integration (CI) pipeline engineered utilizing **GitHub Actions**. This automation acts as an immutable static quality gate, programmatically parsing and validation framework blueprints on every trunk-based code delivery event before runtime execution.
 
 ---
