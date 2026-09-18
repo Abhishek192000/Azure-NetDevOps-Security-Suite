@@ -1,4 +1,4 @@
-# 📊 Project 6: Enterprise Observability & Log Analytics Diagnostics
+# 📊 Project 7: Enterprise Observability & Log Analytics Diagnostics
 
 ## 🗺️ Lab Objective
 Design, provision, and deploy a centralized enterprise log collection and system metrics perimeter. This project sets up an isolated data plane architecture using an Azure Log Analytics Workspace, wires live Linux compute assets via the Azure Monitor Linux Agent (AMA) extension, and leverages custom Kusto Query Language (KQL) parsing scripts to dynamically identify critical hardware strains and audit security authentication compromises.
