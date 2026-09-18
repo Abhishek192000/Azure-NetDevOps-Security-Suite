@@ -8,6 +8,7 @@ Welcome to my enterprise cloud security and automation portfolio. This repositor
 
 Explore the full end-to-end design choices, step-by-step technical narratives, and operational engineering logs on DEV.to:
 
+*   [Technical Journal: Governance Guardrails — Preventing Rogue Deployments & Enforcing Custom RBAC]https://dev.to/abhishek_kadlii_9ef4ca8bc/stopping-rogue-deployments-how-i-programmed-azure-api-guardrails-to-protect-the-cloud-wallet-340m
 *   [Technical Journal: Metric-Driven Scaling and Managing Global SKU Crushes in VMSS Clusters]https://dev.to/abhishek_kadlii_9ef4ca8bc/-the-self-healing-server-fleet-how-i-mastered-automation-beat-global-sku-crushes-and-solved-5d8
 *   [Technical Journal: Enterprise PaaS Storage Isolation & Zero-Trust Perimeter Lockdown]https://dev.to/abhishek_kadlii_9ef4ca8bc/the-underground-tunnel-how-i-locked-down-enterprise-storage-without-breaking-the-app-2lcg
 *   [Day 9 & 10: Shifting to IaC — Writing the 183-Line Central NVA Firewall Engine in Bicep]https://dev.to/abhishek_kadlii_9ef4ca8bc/shifting-to-iac-writing-the-183-line-central-firewall-engine-in-bicep-when-the-portal-hits-a-wall-1n5l
