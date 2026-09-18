@@ -1,5 +1,11 @@
 # 🔒 Project 4: Enterprise PaaS Storage Isolation & Private Link
 
+## 📖 Live Implementation Architecture Chronicles
+
+To track the strategic engineering choices, step-by-step private networking setups, and split-brain DNS validation logs behind this PaaS security isolation lab, review my live technical journal:
+*   [Technical Journal: Enterprise PaaS Storage Isolation & Zero-Trust Perimeter Lockdown]https://dev.to/abhishek_kadlii_9ef4ca8bc/the-underground-tunnel-how-i-locked-down-enterprise-storage-without-breaking-the-app-2lcg
+
+
 ## 🗺️ Lab Objective
 Demonstrate secure data-plane network isolation for multi-tenant Platform-as-a-Service (PaaS) resources within Microsoft Azure. This lab focuses on completely ripping up public internet entry paths to an Azure Storage Account, establishing a zero-trust network perimeter, and forcing all incoming data plane traffic through an internal Private Endpoint interface bound to an isolated Virtual Network subnet.
 
