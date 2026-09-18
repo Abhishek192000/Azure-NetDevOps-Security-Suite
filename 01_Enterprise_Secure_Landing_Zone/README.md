@@ -1,5 +1,13 @@
 # 🗺️ The Cloud Digital Fortress: Automated Secure Landing Zone
 
+## 📖 Live Implementation Architecture Chronicles
+
+To track the strategic engineering journey, step-by-step design blueprints, and phase validations behind this automated secure landing zone, review my live technical journals:
+*   [Day 1: My First Day in the Cloud — Building a Secured Digital Fortress in Azure]https://dev.to/abhishek_kadlii_9ef4ca8bc/my-first-day-in-the-cloud-how-i-built-a-secured-digital-fortress-in-azure-3aka
+*   [Day 4 & 5: Weekend Grind — Breaking the GUI Habit & Building a Scalable Cloud Fortress]https://dev.to/abhishek_kadlii_9ef4ca8bc/weekend-grind-breaking-the-gui-habit-and-building-a-scalable-cloud-fortress-in-azure-day-4-5-241o
+*   [Day 6 & 7: Sunday Double Header — Erecting Checkpoints & Traffic Hijacking in the Cloud]https://dev.to/abhishek_kadlii_9ef4ca8bc/sunday-double-header-erecting-checkpoints-and-traffic-hijacking-in-the-cloud-day-6-7-388h
+
+
 Imagine you are building a high-security bank vault. You wouldn't just build a vault door on the street; you would build a secure entry lobby, hire security guards, set up checkpoints, and force every single visitor to go through baggage screening before they can access the money.
 
 This project does exactly that, but for computer networks in the cloud. Instead of clicking buttons on a screen, we use **Terraform**—a tool that allows us to write down the structural blueprint of this fortress in a text file and deploy it instantly.
